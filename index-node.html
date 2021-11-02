@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/temary.css">
+    <title>Aprende NODEJS</title>
+</head>
+
+<body>
+    <div class="container-body">
+        <div class="post-header">
+            <header class="header" id="home">
+                <div class="bread">
+                    <div class="container-second">
+                        <h3><a href="./index.html">Página Inicio</a> / Node JS</h3>
+                    </div>
+                </div>
+                <div class="container head">
+                    <h1 class="title">N O D E J S</h1>
+                </div>
+            </header>
+            
+        </div>
+        <main>
+
+            <!-- CONTENT -->
+
+            <div class="theme-node">
+                <div class="container-second">
+                    <div class="only-title-1">
+                        <h2>Node JS</h2>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js
+                            haciendo alusión al lenguaje JavaScript). Este entorno de tiempo de ejecución en tiempo real
+                            incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. También
+                            aporta muchos beneficios y soluciona muchísimos problemas, por lo que sería más que
+                            interesante realizar nuestro curso de Node.js para obtener las bases, conceptos y
+                            habilidades necesarias que nos motiven a profundizar en sus opciones e iniciar la
+                            programación.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Node.js fue creado por los desarrolladores originales de JavaScript. Lo transformaron de algo
+                            que solo podía ejecutarse en el navegador en algo que se podría ejecutar en los ordenadores
+                            como si de aplicaciones independientes se tratara. Gracias a Node.js se puede ir un paso más
+                            allá en la programación con JavaScript no solo creando sitios web interactivos, sino
+                            teniendo la capacidad de hacer cosas que otros lenguajes de secuencia de comandos como
+                            Python pueden crear.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Tanto JavaScript como Node.js se ejecutan en el motor de tiempo de ejecución JavaScript V8
+                            (V8 es el nombre del motor de JavaScript que alimenta Google Chrome. Es lo que toma nuestro
+                            JavaScript y lo ejecuta mientras navega con Chrome). Este motor coge el código JavaScript y
+                            lo convierte en un código de máquina más rápido. El código de máquina es un código de nivel
+                            más bajo que la computadora puede ejecutar sin necesidad de interpretarlo primero, ignorando
+                            la compilación y por lo tanto aumentando su velocidad.
+                        </p>
+                    </div>
+                    <div class="only-title-4">
+                        <h4>Instalación en Windows</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>
+                            Lo primero que debes hacer para instalar Node.js en Windows es descargar de la página
+                            oficial la versión que necesites.
+                        </p>
+                        <p>
+                            Se descargará un archivo .msi que ejecutaremos. Este es el asistente de instalación y la
+                            verdad que no tiene ningún misterio.
+                        </p>
+                        <p>
+                            Tras terminar el proceso de instalación tendremos que verificar que tenemos correctamente
+                            instalado todo lo necesario para empezar a desarrollar. Podemos comprobarlo con dos
+                            comandos:
+                        </p>
+                        <p>
+                            node --version
+                        </p>
+                        <p>
+                            npm --version
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <!-- Other js -->
+            <div class="container-second">
+                <div class="separator"></div>
+            </div>
+            <div class="theme-js">
+                <div class="container-second">
+                    <div class="only-title-1">
+                        <h2>Conceptos Avanzados de JavaScript</h2>
+                    </div>
+
+                    <div class="code-programming-1">
+                        <xmp>
+                            //Ejecutar código JavasCript con Node
+                            ->$ node app.js
+                        </xmp>
+                    </div>
+
+                    <div class="only-title-4">
+                        <h4>Variables con var, let y const</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>CONST: Es una constante la cual NO cambiara su valor en ningún momento en el futuro.</p>
+                        <p>VAR: Es una variable que SI puede cambiar su valor y su scope es local..</p>
+                        <p>LET: Es una variable que también podra cambiar su valor, pero solo vivirá(Funcionara) en el
+                            bloque donde fue declarada.</p>
+                    </div>
+                    <br>
+
+                    <div class="only-title-4">
+                        <h4>Desestructuración de Arreglos y Objetos</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>La sintaxis de desestructuración es una funcionalidad fascinante que vino junto con ES6. Es
+                            una expresión de JavaScript que permite desempacar valores de arreglos o propiedades de
+                            objetos en distintas variables. Es decir, podemos extraer datos de arreglos y objectos y
+                            asignarlos a variables.</p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Imagina que queremos extraer datos de un arreglo. Anteriormente, ¿cómo se haría esto?</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            let introduccion = ["Hola", "Yo" , "soy", "Sarah"];
+                            let saludo = introduccion[0];
+                            let nombre = introduccion[3];
+
+                            console.log(saludo); // "Hola"
+                            console.log(nombre); // "Sarah"
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Podemos ver que cuando queremos extraer datos de un arreglo, tenemos que hacer lo mismo una y
+                            otra vez.</p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>La desestructuración de ES6 facilita la extracción de estos datos. ¿De qué forma? Primero,
+                            discutiremos sobre la desestructuración con arreglos. Luego pasaremos a la desestructuración
+                            de objetos.</p>
+                    </div>
+                    <div class="only-title-5">
+                        <h5>Desestructuración Básica de Arreglos</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Si queremos extraer datos de un arreglo, es bastante sencillo usando la sintaxis de
+                            desestructuración.</p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Tomando como referencia el primer ejemplo. En lugar de pasar por ese proceso repetitivo,
+                            haríamos esto:</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            let introduccion = ["Hola", "Yo" , "soy", "Sarah"];;
+                            let [saludo, pronombre] = introduccion;
+
+                            console.log(saludo); // "Hola"
+                            console.log(pronombre); // "Yo"
+                        </xmp>
+                    </div>
+                    <div class="only-title-5">
+                        <h5>Declarando Variables antes de la Asignación</h5>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            let saludo, pronombre;
+                            [saludo, pronombre] = ["Hola", "Yo" , "soy", "Sarah"];
+
+                            console.log(saludo); // "Hola"
+                            console.log(pronombre); // "Yo"
+                        </xmp>
+                    </div>
+                    <div class="only-title-5">
+                        <h5>Omitiendo elementos en un Arreglo</h5>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            let [saludo,,,nombre] = ["Hola", "Yo" , "soy", "Sarah"];
+
+                            console.log(saludo); // "Hola"
+                            console.log(nombre); // "Sarah"
+                        </xmp>
+                    </div>
+                    <div class="only-title-5">
+                        <h5>Desestructuración con Funciones</h5>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            function obtenerArreglo() {
+                            return ["Hola", "Yo" , "soy", "Sarah"];
+                            }
+
+                            let [saludo, pronombre] = obtenerArreglo();
+
+                            console.log(saludo); // "Hello"
+                            console.log(pronombre); // "I"
+                        </xmp>
+                    </div>
+                    <div class="only-title-4">
+                        <h4>Funciones Flecha</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Las funciones flecha son una de las novedades ES6 (ECMAScript 2015) que más pueden
+                            desconcertar a los desarrolladores tradicionales. Su estructura intimida a simple vista y,
+                            de hecho, cuando nos las encontramos en un código sin avisar, pueden parecer incluso un
+                            error de sintaxis. Quizá ya os ha pasado: revisáis un código moderno en un blog, o en un
+                            repositorio de GitHub, e inmediatamente se os va la vista a una estructura rara que no
+                            parece que vaya a funcionar en la vida. -¿Pero eso es Javascript? – sería otra pregunta
+                            recurrente que quizá os haya hecho algún colega mientras jugáis con esta nueva sintaxis a
+                            escondidas…</p>
+                    </div>
+                    <div class="only-title-5">
+                        <h5>SINTAXIS DE LAS FUNCIONES FECHA</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Vamos a empezar por definir una función sencilla de la forma clásica para sumar 2 números y
+                            vamos a ver cómo convertirla en una función flecha.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            function suma(numero1, numero2) {
+                            return numero1 + numero2;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Sabemos que es una función precisamente porque lleva la palabra function, pues con las arrow
+                            funtions lo primero que tenemos que tener claro es que no llevan ni la palabra function ni
+                            ninguna otra, la forma por la que vamos a ver que es una función flecha es porque va a tener
+                            el operador flecha => entre los parámetros y el cuerpo de la función, por lo tanto la
+                            primera sintaxis posible para nuestra función flecha es sustituir function por =>.</p>
+
+                        <p>Las funciones flecha son funciones anónimas y por lo tanto si queremos poder llamar a nuestra
+                            función debemos de asignársela a una variable, y aunque esta asignación no forma parte de la
+                            definición de una función flecha en la práctica lo tendremos que hacer siempre que no
+                            estemos asignando la función flecha a otra función directamente.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var suma = (numero1, numero2) => {
+                            return numero1 + numero2;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Esta primera sintaxis no parece ser de mucha utilidad e incluso puede parecer hasta peor pero
+                            si como en este caso el cuerpo de la función solo tiene una sentencia podemos eliminar el
+                            return y las {} y ya tenemos una sintaxis mucho más compacta, ideal para usar en los
+                            callbacks por ejemplo.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var suma = (numero1, numero2) => numero1 + numero2;
+                        </xmp>
+                    </div>
+                    <br>
+
+
+                    <div class="only-title-4">
+                        <h4>Template String</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>El concepto de JavaScript template String es parte de JavaScript ES6 . El manejo de
+                            plantillas es general a todos los lenguajes de programación . Java dispone de Thymeleaf ,
+                            .NET de Razor y PHP de Smarty . JavaScript también dispone de su propio universo de
+                            plantillas . Pero hace tiempo se echaba en falta disponer de algún tipo de sistema de
+                            plantillas integrado en el propio lenguaje. En ES6 aparecen los JavaScript template Strings
+                            que nos permiten usar plantillas sencillas directamente en el código, vamos a verlo.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var nombre="cecilio";
+                            var plantilla= `hola que tal estas ${nombre}`;
+                            console.log(plantilla);
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-4">
+                        <h4>Callbacks</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Un callback (llamada de vuelta) es una función que recibe como argumento otra función y la
+                            ejecuta. En el siguiente ejemplo, la función foo recibe por parámetro otra función, que es
+                            el callback. La función foo es la encargada de ejecutar el callback.
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            function foo(callback) {
+                            //do something
+                            callback();
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Es importante tener en cuenta que cuando pasamos un callback solo pasamos la definición de la
+                            función y no la ejecutamos en el parámetro. Así, la función contenedora elige cuándo
+                            ejecutar el callback.
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+       
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

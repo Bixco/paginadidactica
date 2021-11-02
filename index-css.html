@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/temary.css">
+    <title>Aprende CSS</title>
+</head>
+
+<body>
+    <div class="container-body">
+
+        <!-- HEADER -->
+        <div class="post-header">
+            <header class="header" id="home">
+                <div class="bread container-second">
+                    <h3><a href="./index.html">Página Inicio</a> / css</h3>
+                </div>
+                <div class="container head">
+                    <h1 class="title">C S S</h1>
+                </div>
+            </header>
+            
+        </div>
+
+
+        <main>
+
+            <!-- CSS -->
+            <div class="theme-css">
+                <div class="container-second">
+                    <div class="only-title-1">
+                        <h2>¿Que es CSS?</h2>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>CSS (en inglés Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en
+                            cascada y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. CSS
+                            separa el contenido de la representación visual del sitio.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>CSS fue desarrollado por W3C (World Wide Web Consortium) en 1996 por una razón muy sencilla.
+                            HTML no fue diseñado para tener etiquetas que ayuden a formatear la página. Está hecho solo
+                            para escribir el marcado para el sitio.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Se incluyeron etiquetas como <font> en HTML versión 3.2, y esto les causó muchos problemas a
+                                los desarrolladores. Dado que los sitios web tenían diferentes fuentes, fondos de
+                                colores y estilos, el proceso de reescribir el código fue largo, doloroso y costoso. Por
+                                lo tanto, CSS fue creado por W3C para resolver este problema.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>La relación entre HTML y CSS es muy fuerte. Dado que HTML es un lenguaje de marcado (es
+                            decir, constituye la base de un sitio) y CSS enfatiza el estilo (toda la parte estética de
+                            un sitio web), van de la mano.
+                        </p>
+                    </div>
+                    <div class="only-title-4">
+                        <h4>Cómo funciona CSS</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>CSS utiliza una sintaxis simple basada en el inglés con un conjunto de reglas que la
+                            gobiernan. Como mencionamos anteriormente, HTML no fue hecho con la intención de utilizar
+                            elementos de estilo, sino solo para el marcado de la página. Fue creado simplemente para
+                            describir el contenido.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Veamos un ejemplo:</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            <style>
+                                p {
+                                    color: blue;
+                                    font-weight: bold;
+                                }
+                            </style>
+                        </xmp>
+                    </div>
+                    <br>
+                    <div class="code-programming-1">
+                        <xmp>
+                            <p style="color: blue; font-weight: bold;">
+                                Hola Mundo!!
+                            </p>
+                        </xmp>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="container-second">
+                <div class="separator"></div>
+            </div>
+
+
+
+            <!-- FLEX BOX -->
+            <div class="theme-flexbox">
+                <div class="container-second">
+                    <div class="only-title-1">
+                        <h2>Flex Box</h2>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>
+                            En los principios de CSS era muy común ver la propiedad float en los archivos style.css y
+                            aunque
+                            esta propiedad fue creada para especificar si un elemento debe salir del flujo normal y
+                            situarse a
+                            la izquierda o derecha del contenido y el texto cercano acoplarse o no a dicho elemento, fue
+                            utilizada para crear disposiciones de elementos habiendo texto o no involucrado. Pero eso es
+                            cosa
+                            del pasado con Flexbox...
+                        </p>
+                    </div>
+                    <div class="only-title-4">
+                        <h4>¿Qué es Flexbox?</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>
+                            Flexbox es un módulo de diseño de CSS3 que se creó para mejorar la forma en la que se hace
+                            diseño
+                            responsive, evitando así el uso de float, escribiendo menos código y facilitando el
+                            posicionamiento
+                            de elementos, incluso no teniendo noción del tamaño de éstos. Básicamente la idea de Flexbox
+                            es
+                            poder alterar el ancho, alto y posicionamiento de elementos de la mejor manera con el
+                            espacio del
+                            que disponemos.
+                        </p>
+                    </div>
+
+
+                    <div class="only-title-4">
+                        <h4>Propiedades para el padre</h4>
+                    </div>
+                    <div class="code-programming-1">
+                        <pre>
+                    <code>
+                        .container {
+                            display: flex; /* or inline-flex */
+                            }      
+                    </code>
+                    </pre>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>
+                            Esto define un contenedor flexible; en línea o en bloque según el valor dado. Permite un
+                            contexto flexible para todos sus hijos directos.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="code-programming-1">
+                        <pre>
+                    <code>
+                        .container {
+                            flex-direction: row | row-reverse | column | column-reverse;
+                        }       
+                    </code>
+                    </pre>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Esto establece el eje principal, definiendo así la dirección en que se colocan los elementos
+                            flexibles en el contenedor flexible. Flexbox es (aparte de la envoltura opcional) un
+                            concepto de diseño de una sola dirección. Piense en los elementos flexibles como
+                            distribuidos principalmente en filas horizontales o columnas verticales.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>* row(predeterminado): de izquierda a derecha en ltr; de derecha a izquierda enrtl</p>
+                        <p>* row-reverse: de derecha a izquierda adentro ltr; de izquierda a derecha enrtl</p>
+                        <p>* column: igual que rowpero de arriba a abajo</p>
+                        <p>* column-reverse: igual que row-reversepero de abajo hacia arriba</p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="code-programming-1">
+                        <xmp>
+                            .container {
+                            flex-wrap: nowrap | wrap | wrap-reverse;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>By default, flex items will all try to fit onto one line. You can change that and allow the
+                            items to wrap as needed with this property.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>* nowrap (default): all flex items will be on one line</p>
+                        <p>* wrap: flex items will wrap onto multiple lines, from top to bottom.</p>
+                        <p>* wrap-reverse: flex items will wrap onto multiple lines from bottom to top.</p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="code-programming-1">
+                        <xmp>
+                            .container {
+                            justify-content: flex-start | flex-end | center | space-between | space-around |
+                            space-evenly | start | end | left | right ... + safe | unsafe;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>This defines the alignment along the main axis. It helps distribute extra free space leftover
+                            when either all the flex items on a line are inflexible, or are flexible but have reached
+                            their maximum size. It also exerts some control over the alignment of items when they
+                            overflow the line.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>* flex-start (default): items are packed toward the start of the flex-direction.</p>
+                        <p>* flex-end: items are packed toward the end of the flex-direction..</p>
+                        <p>* start: items are packed toward the start of the writing-mode direction..</p>
+                        <p>* end: items are packed toward the end of the writing-mode direction..</p>
+                        <p>* left: items are packed toward left edge of the container, unless that doesn’t make sense
+                            with the flex-direction, then it behaves like start..</p>
+                        <p>* right: items are packed toward right edge of the container, unless that doesn’t make sense
+                            with the flex-direction, then it behaves like end.</p>
+                        <p>* center: items are centered along the line.</p>
+                        <p>* space-between: items are evenly distributed in the line; first item is on the start line,
+                            last item on the end line.</p>
+                        <p>* space-around: items are evenly distributed in the line with equal space around them. Note
+                            that visually the spaces aren’t equal, since all the items have equal space on both sides..
+                        </p>
+                        <p>* space-evenly: items are distributed so that the spacing between any two items (and the
+                            space to the edges) is equal..</p>
+                    </div>
+                    <br>
+                    <br>
+
+
+                    <div class="code-programming-1">
+                        <xmp>
+                            .container {
+                            align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last
+                            baseline | start | end | self-start | self-end + ... safe | unsafe;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>This defines the default behavior for how flex items are laid out along the cross axis on the
+                            current line. Think of it as the justify-content version for the cross-axis (perpendicular
+                            to the main-axis).
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>* stretch (default): stretch to fill the container (still respect min-width/max-width)</p>
+                        <p>* flex-start / start / self-start: items are placed at the start of the cross axis. The
+                            difference between these is subtle, and is about respecting the flex-direction rules or the
+                            writing-mode rules.</p>
+                        <p>* flex-end / end / self-end: items are placed at the end of the cross axis. The difference
+                            again is subtle and is about respecting flex-direction rules vs. writing-mode rules.</p>
+                        <p>* center: items are centered in the cross-axis</p>
+                        <p>* baseline: items are aligned such as their baselines align</p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="code-programming-1">
+                        <xmp>
+                            .container {
+                            align-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+                            | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>This aligns a flex container’s lines within when there is extra space in the cross-axis,
+                            similar to how justify-content aligns individual items within the main-axis.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="code-programming-1">
+                        <xmp>
+                            .container {
+                            display: flex;
+                            ...
+                            gap: 10px;
+                            gap: 10px 20px; /* row-gap column gap */
+                            row-gap: 10px;
+                            column-gap: 20px;
+                            }
+                        </xmp>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>La gappropiedad controla explícitamente el espacio entre elementos flexibles. Se aplica ese
+                            espaciado solo entre elementos, no en los bordes exteriores.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+
+
+            <div class="container-second">
+                <div class="separator"></div>
+            </div>
+
+            <!-- ---- CSS GRID LAYOUT------ -->
+            <div class="theme-grid">
+                <div class="container-second">
+                    <div class="only-title-1">
+                        <h2>CSS GRID LAYOUT</h2>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>CSS Grid Layout es un sistema de rejilla en 2 dimensiones, creado dentro del lenguaje CSS. Es
+                            un estándar, lo que quiere decir que no necesitas nada para que el navegador lo entienda.
+                            Para ponerlo en práctica necesitas simplemente aplicar el nuevo "display: grid" y comenzar a
+                            usar sus potentes propiedades y valores CSS. Con ello podrás controlar todos los aspectos
+                            imaginables de la rejilla, obteniendo prácticamente todo lo que se te ocurra de una manera
+                            cómoda.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Actualmente todos los navegadores soportan CSS Grid Layout, por lo que te recomendamos
+                            usarlo. Aplicar el sistema de rejilla es una auténtica maravilla, permitiendo hacer con muy
+                            poco esfuerzo cosas que antes necesitabas mucho código CSS, o que directamente eran
+                            imposibles de conseguir, al menos con tal versatilidad.
+                        </p>
+                    </div>
+                    <br>
+
+                    <div class="only-title-4">
+                        <h4>Sistemas de rejilla en CSS</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>CSS Grid Layout es un modelo de maquetación CSS en base a una rejilla, algo que podría no
+                            parecer tan novedoso, si tenemos en cuenta que diversas librerías de CSS lo habían intentado
+                            ya. Sistemas como 960 Grid System fueron pioneros en crear una base de código CSS para que
+                            los diseñadores pudieran posicionar los elementos en una distribución de filas y columnas.
+                            El propio Bootstrap incluye entre otras cosas un sistema de rejilla.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <br>
+            <br>
+        </main>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

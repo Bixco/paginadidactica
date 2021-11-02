@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/temary.css">
+    <title>Aprende JavaScript</title>
+</head>
+
+<body>
+    <div class="container-body">
+
+        <!-- HEADER -->
+        <div class="post-header">
+            <header class="header" id="home">
+                <div class="bread">
+                    <div class="container-second">
+                        <h3><a href="./index.html">Página Inicio</a> / JavaScript</h3>
+                    </div>
+    
+                </div>
+                <div class="container head">
+                    <h1 class="title">J A V A S C R I P T</h1>
+                </div>
+            </header>
+           
+        </div>
+
+
+        <!-- CONTENT -->
+        <main>
+
+            <div class="theme-js">
+                <div class="container-second">
+                    <div class="only-title-1">
+                        <h2>JavaScript</h2>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Javascript es un lenguaje que puede ser utilizado por profesionales y para quienes se inician
+                            en el desarrollo y diseño de sitios web. No requiere de compilación ya que el lenguaje
+                            funciona del lado del cliente, los navegadores son los encargados de interpretar estos
+                            códigos.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Muchos confunden el Javascript con el Java pero ambos lenguajes son diferentes y tienes sus
+                            características singulares. Javascript tiene la ventaja de ser incorporado en cualquier
+                            página web, puede ser ejecutado sin la necesidad de instalar otro programa para ser
+                            visualizado.
+                        </p>
+                    </div>
+
+                    <div class="only-title-4">
+                        <h4>¿Qué es Javascript?</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Javascript es un lenguaje con muchas posibilidades, utilizado para crear pequeños programas
+                            que luego son insertados en una página web y en programas más grandes, orientados a objetos
+                            mucho más complejos. Con Javascript podemos crear diferentes efectos e interactuar con
+                            nuestros usuarios.
+                        </p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Este lenguaje posee varias características, entre ellas podemos mencionar que es un lenguaje
+                            basado en acciones que posee menos restricciones. Además, es un lenguaje que utiliza Windows
+                            y sistemas X-Windows, gran parte de la programación en este lenguaje está centrada en
+                            describir objetos, escribir funciones que respondan a movimientos del mouse, aperturas,
+                            utilización de teclas, cargas de páginas entre otros.
+                        </p>
+                    </div>
+
+
+                    <div class="only-title-4">
+                        <h4>Imprimir en Consola</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>El método console.log () escribe un mensaje en la consola. La consola es útil para realizar
+                            pruebas.
+                        </p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var myObj = { firstname : "John", lastname : "Doe" };
+                            console.log(myObj);
+                        </xmp>
+                    </div>
+                    <br>
+
+
+                    <div class="only-title-4">
+                        <h4>Variables</h4>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Hay 3 formas de declarar una variable de JavaScript:</p>
+                        <p> *Utilizando var</p>
+                        <p> *Utilizando let</p>
+                        <p> *Utilizando const</p>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>let y const son dos formas de declarar variables en JavaScript introducidas en ES6 que
+                            reducen el ámbito de la variable a bloques (con var el ámbito era la función actual) y no
+                            admiten hoisting. Además, las variables declaradas con const no pueden ser reasignadas
+                            (aunque no significa que su valor sea inmutable, como veremos a continuación).</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var MiNombre = "";
+                            let MiEdad = 0;
+                            CONST MiDPI = "";
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-4">
+                        <h4>Tipos de Datos (Primitivos)</h4>
+                    </div>
+                    <div class="only-title-5">
+                        <h5>String</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Un string es una cadena de caracteres. A cada carácter de una cadena se le asigna una
+                            posición, empezando por el primer carácter en la posición 0, el segundo en la posición 1 y
+                            así sucesivamente.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            let MiTexto = "tarta de plátano vegana con masa casera";
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-5">
+                        <h5>Number</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>JavaScript solo tiene un tipo de datos numérico. No hay un tipo específico para los números
+                            enteros y de coma flotante.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var peso = 54;
+                            var pesoExacto = 54.3;
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-5">
+                        <h5>Boolean</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Boolean representa una entidad lógica y puede tener dos valores: true, y false.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var x = false;
+                            if (x) {
+                            // este código no se ejecuta
+                            }
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-5">
+                        <h5>null</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>El tipo Null tiene el valor: null.</p>
+                    </div>
+                    <br>
+
+
+                    <div class="only-title-5">
+                        <h5>undefined</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Una variable a la cual no se le haya asignado valor tiene el valor undefined.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var saludo;
+                            console.log(typeof saludo); // "undefined"
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-5">
+                        <h5>Objetos</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Un Objeto es un valor en memoria al que podemos acceder por un identificador. En JavaScript
+                            los objetos pueden ser vistos como una colección de propiedades.
+                            Un Objeto en notación literal tiene este aspecto:</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            var persona = {
+                            nombre: "Marcel",
+                            edad: "38",
+                            ciudad: "Alaior",
+                            };
+
+                            console.log(persona.nombre);
+                        </xmp>
+                    </div>
+                    <br>
+
+                    <div class="only-title-5">
+                        <h5>Arrays</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>El objeto Array de JavaScript es un objeto global que es usado en la construcción de arrays,
+                            que son objetos tipo lista de alto nivel.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            //Crear un Array
+                            let frutas = ["Manzana", "Banana"]
+
+                            //Acceder a un elemento de Array mediante su índice
+                            let primero = frutas[0]
+
+                            //Recorrer un Array
+                            frutas.forEach(function(elemento, indice, array) {
+                            console.log(elemento, indice);
+                            })
+
+                            //Añadir un elemento al final de un Array
+                            let nuevaLongitud = frutas.push('Naranja'
+                        </xmp>
+                    </div>
+                    <br>
+
+
+                    <div class="only-title-5">
+                        <h5>Funciones</h5>
+                    </div>
+                    <div class="only-paragraph-1">
+                        <p>Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función
+                            en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una
+                            tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar
+                            alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la
+                            salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas
+                            llamarla.</p>
+                    </div>
+                    <div class="code-programming-1">
+                        <xmp>
+                            //define una función
+
+                            function square(number) {
+                                return number * number;
+                              }
+
+
+                            //Llamar funcion
+                            square(5)
+
+                            //Imprimir función
+                            console.log(square(5));
+                            
+                        </xmp>
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+
+
+        </main>
+
+
+        <!-- FOOTER -->
+        
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
